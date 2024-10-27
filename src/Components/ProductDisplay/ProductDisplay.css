@@ -15,12 +15,12 @@
 }
 
 .productdisplay-img-list img {
-    height: 88px;
+    height: 12vh;
 }
 
 .productdisplay-main-img {
-    width: 500px;
-    height: 400px;
+    width: 37vw;
+    height: auto;
 }
 
 .productdisplay-right {
