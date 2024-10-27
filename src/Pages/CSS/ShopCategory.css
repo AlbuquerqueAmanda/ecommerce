@@ -1,0 +1,45 @@
+.shopcategory-banner {
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    z-index: -1;
+}
+
+.shopcategory h1 {
+    display: flex;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 5rem;
+    margin-left: 10vw;
+    z-index: 1;
+    margin-top: 30vh;
+    position: absolute;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.shopcategory-indexSort {
+    display: flex;
+    margin: 0px 170px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopcategory-sort {
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+}
+
+.shopcategory-indexSort p span {
+    font-weight: 600;
+}
+
+.shopcategory-products {
+    margin: 20px 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+}
