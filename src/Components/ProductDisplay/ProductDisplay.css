@@ -106,3 +106,27 @@
 .productdisplay-right-description {
     width: 30vw;
 }
+
+@media screen and (max-width: 768px) {
+    .productdisplay {
+        width: 768px;
+        height: auto;
+        display: block;
+        margin: 0;
+    }
+    .productdisplay-main-img {
+        width: 30rem;
+    }
+    .productdisplay-img-list img {
+        height: 10vh;
+        margin-left: 15vw;
+    }
+    .productdisplay-right {
+        display: flex;
+        position: relative;
+        margin-top: 10vh;
+    }
+    .productdisplay-right-description {
+        width: 33rem;
+    }
+}

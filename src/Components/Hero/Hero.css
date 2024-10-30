@@ -28,3 +28,19 @@
     margin-left: -580px;
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+@media screen and (max-width: 768px) {
+    .hero {
+        width: 768px;
+        height: auto;
+        display: flex; 
+    }
+    .hero img {
+        width: 768px;
+        height: auto;
+    }
+    .hero p {
+        margin-top: 10vh;
+        margin-left: 20px;
+    }
+  }

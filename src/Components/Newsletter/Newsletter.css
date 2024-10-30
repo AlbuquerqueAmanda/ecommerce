@@ -49,3 +49,11 @@
     font-size: 16px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    .newsletter {
+        width: 768px;
+        height: auto;
+        display: flex;
+    }
+}

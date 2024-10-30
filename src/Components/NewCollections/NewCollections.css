@@ -32,3 +32,15 @@
     margin-top: 50px;
     gap: 5px;
 }
+
+@media screen and (max-width: 768px) {
+    .collections {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 5px;
+    }
+    .newcollections {
+        width: 768px;
+    }
+  }

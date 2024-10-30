@@ -25,3 +25,16 @@
     display: flex;
     gap: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    .relatedproducts {
+        width: 768px;
+        margin-left: 0;
+    }
+    .relatedproducts-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 5px;
+    }
+}

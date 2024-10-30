@@ -25,3 +25,15 @@
     display: flex;
     gap: 5px;
 }
+
+@media screen and (max-width: 768px) {
+    .popular-item {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 5px;
+    }
+    .popular {
+      width: 768px;
+    }
+  }

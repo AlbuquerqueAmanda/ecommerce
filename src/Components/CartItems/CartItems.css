@@ -115,3 +115,66 @@
 .cartitems-promobox button:hover {
     background: #302d2d;
 }
+
+@media screen and (max-width: 768px) {
+    .cartitems {
+        width: 768px;
+        margin: 0;
+        margin-top: 30vw;
+        height: auto;
+    }
+    .cartitems-format-main {
+        display: flex;
+        grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        gap: 60px;
+        padding: 10px 0px;
+        margin-left: 10vw;
+        color: #454545;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .cartitems-total {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        gap: 40px;
+        margin-right: 10vw;
+    }
+    .cartitems-promocode {
+        flex: 1;
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: 0;
+        padding: 0;
+    }
+    .cartitems-promobox button {
+        width: 40vw;
+        height: 8vh;
+        font-size: 16px;
+        background: black;
+        color: white;
+        cursor: pointer;
+        border: none;
+    }
+    .cartitems-promobox {
+        width: 68vw;
+        height: 8vh;
+        margin-top: 15px;
+        padding-left: 20px;
+        background: #eaeaea;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border: #5a5858 solid 1px;
+    }
+    
+    .cartitems-promobox input {
+        border: none;
+        background: transparent;
+        font-size: 16px;
+        width: 30vw;
+        height: 8vh;
+    }
+}

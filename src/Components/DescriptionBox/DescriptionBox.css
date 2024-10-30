@@ -30,3 +30,12 @@
     padding: 38px;
     padding-bottom: 50px;
 }
+
+@media screen and (max-width: 768px) {
+    .descriptionbox {
+        width: 160vw;
+        height: auto;
+        padding: 0;
+        margin: 20vw;
+    }
+}

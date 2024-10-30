@@ -74,3 +74,15 @@
     width: auto;
     height: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .loginsignup {
+        width: 768px;
+        height: auto;
+        display: flex;
+    }
+    .loginsignup-container {
+        width: 100vw;
+        height: auto;
+    }
+}

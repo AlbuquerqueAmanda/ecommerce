@@ -98,3 +98,9 @@
     background: red;
     color: white;
 }
+
+@media screen and (max-width: 768px) {
+    .nav-menu {
+        gap: 144px;
+    }
+  }

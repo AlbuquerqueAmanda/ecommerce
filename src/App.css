@@ -37,15 +37,3 @@
   }
 }
 
-@media (max-width: 768px) {
-  .elemento {
-      flex-direction: column; 
-      padding: 10px; 
-  }
-}
-
-@media (max-width: 480px) {
-  .elemento {
-      font-size: 14px; 
-  }
-}
