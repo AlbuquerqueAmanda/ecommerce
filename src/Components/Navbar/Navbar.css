@@ -101,8 +101,11 @@
 
 @media screen and (max-width: 768px) {
     .nav-menu {
-        margin-left: 20vw;
         gap: 20vw;
+        width: 768px;
+        margin-left: 20vw;
+    }
+    .navbar {
         width: 768px;
         display: flex;
         align-items: center;
