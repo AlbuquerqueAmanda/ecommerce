@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Tea Shop ☕🍃 `pt-br`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Tea Shop é um projeto de e-commerce desenvolvido em React.js, inspirado na minha paixão recente por chás. O objetivo principal deste projeto pessoal foi explorar e consolidar conhecimentos em React.js e desenvolver uma aplicação de comércio eletrônico com funcionalidades essenciais para uma loja virtual.
 
-## Available Scripts
+## 📋 Descrição do Projeto
 
-In the project directory, you can run:
+Tea Shop é uma plataforma onde os usuários podem explorar uma seleção de chás e doces, adicionar produtos ao carrinho de compras e visualizar o valor total da compra. O layout foi projetado para oferecer uma experiência de navegação agradável e intuitiva, utilizando as melhores práticas de HTML5, CSS3 e JavaScript.
 
-### `npm start`
+## 🛠️ Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **HTML5**: Estrutura e semântica da página.
+- **CSS3**: Estilos e design responsivo.
+- **JavaScript**: Lógica de funcionalidades da aplicação.
+- **React.js**: Construção da interface de usuário e gerenciamento de estados.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 💡 Funcionalidades
 
-### `npm test`
+- **Listagem de Produtos**: Exibição de opções de chás e doces com detalhes e preços.
+- **Carrinho de Compras**: Possibilidade de adicionar ou remover produtos ao carrinho.
+- **Cálculo Total**: O valor total é atualizado automaticamente conforme produtos são adicionados ou removidos do carrinho.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 Como Rodar o Projeto
 
-### `npm run build`
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/tea-shop.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Instale as dependências:
+   ```bash
+   npm install
+   
+3. Inicie o projeto:
+   ```bash
+   npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Acesse em seu navegador:
+   ```bash
+   http://localhost:3000
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##
 
-### `npm run eject`
+# Tea Shop ☕🍃 `eng`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Tea Shop is an e-commerce project developed in React.js, inspired by my recent passion for teas. The main goal of this personal project was to explore and consolidate knowledge in React.js and develop an e-commerce application with essential functionalities for an online store.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📋 Project Description
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Tea Shop is a platform where users can explore a selection of teas and sweets, add products to the shopping cart, and view the total purchase amount. The layout was designed to provide a pleasant and intuitive browsing experience, using best practices in HTML5, CSS3, and JavaScript.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠️ Technologies Used
 
-## Learn More
+- **HTML5**: Structure and semantics of the page.
+- **CSS3**: Styles and responsive design.
+- **JavaScript**: Application functionality logic.
+- **React.js**: User interface construction and state management.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 💡 Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Product Listing**: Display options for teas and sweets with details and prices.
+- **Shopping Cart**: Ability to add or remove products from the cart.
+- **Total Calculation**: The total amount updates automatically as products are added or removed from the cart.
 
-### Code Splitting
+## 📦 How to Run the Project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/seu-usuario/tea-shop.git
 
-### Analyzing the Bundle Size
+2. Install dependencies:
+   ```bash
+   npm install
+   
+3. Start the project:
+   ```bash
+   npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Open in your browser:
+   ```bash
+   http://localhost:3000
