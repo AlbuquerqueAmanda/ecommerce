@@ -101,6 +101,8 @@
 
 @media screen and (max-width: 768px) {
     .nav-menu {
-        gap: 144px;
+        margin-left: 20vw;
+        gap: 20vw;
+        width: 768px;
     }
   }
