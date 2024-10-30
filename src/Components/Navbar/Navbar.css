@@ -104,5 +104,7 @@
         margin-left: 20vw;
         gap: 20vw;
         width: 768px;
+        display: flex;
+        align-items: center;
     }
   }
